@@ -1,0 +1,30 @@
+{
+  "name": "dir",
+  "version": "1.0.0",
+  "description": "Estudio Juridico OC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gooseleader/OliverosC.git"
+  },
+  "keywords": [
+    "Abogado",
+    "leyes"
+  ],
+  "author": "Jose Villarroel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gooseleader/OliverosC/issues"
+  },
+  "homepage": "https://github.com/gooseleader/OliverosC#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
